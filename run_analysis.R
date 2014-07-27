@@ -1,4 +1,4 @@
-dataset <- function(){
+
         #load packages
         library(plyr)
         
@@ -33,4 +33,3 @@ dataset <- function(){
         dataset.2 <-cbind(meandata, sd)
         
         write.table(dataset.2, file= "dataset_2")
-}
