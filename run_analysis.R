@@ -32,4 +32,4 @@
         
         dataset.2 <-cbind(meandata, sd)
         
-        write.table(dataset.2, file= "dataset_2")
+        write.table(dataset.2, file= "dataset_2.txt")
